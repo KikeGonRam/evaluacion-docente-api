@@ -141,6 +141,24 @@ Actualmente existe prueba de carga de contexto:
 
 Siguiente paso recomendado: agregar pruebas unitarias de servicios y pruebas de integracion para controladores.
 
+## Modelo de Datos
+
+Consulta la documentación completa del modelo de datos en: **[MODELO_DATOS.md](docs/MODELO_DATOS.md)**
+
+### Entidades principales:
+
+| Entidad      | Tabla             | Descripción                                    |
+|--------------|-------------------|------------------------------------------------|
+| Estudiante   | `estudiantes`     | Información de estudiantes que evalúan         |
+| Docente      | `docentes`        | Información de docentes evaluados              |
+| Cuestionario | `cuestionarios`   | Formularios con preguntas de evaluación        |
+| Evaluacion   | `evaluaciones`    | Registro de evaluaciones realizadas            |
+
+**Relaciones:**
+- 1 Estudiante → N Evaluaciones
+- 1 Docente → N Evaluaciones  
+- 1 Cuestionario → N Evaluaciones
+
 ## Documentacion OpenAPI
 
 Los metadatos de Swagger/OpenAPI se leen de propiedades `app.openapi.*`:

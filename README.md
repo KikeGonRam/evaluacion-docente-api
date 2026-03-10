@@ -151,6 +151,32 @@ Los metadatos de Swagger/OpenAPI se leen de propiedades `app.openapi.*`:
 - `app.openapi.contact.name`
 - `app.openapi.contact.email`
 
+### Capturas de pantalla
+
+#### Interfaz Swagger UI
+
+![Swagger UI - Vista general](docs/images/swagger-ui-overview.png)
+
+#### Endpoints de Docentes
+
+![API Docentes](docs/images/swagger-docentes.png)
+
+#### Endpoints de Estudiantes
+
+![API Estudiantes](docs/images/swagger-estudiantes.png)
+
+#### Endpoints de Cuestionarios
+
+![API Cuestionarios](docs/images/swagger-cuestionarios.png)
+
+#### Endpoints de Evaluaciones
+
+![API Evaluaciones](docs/images/swagger-evaluaciones.png)
+
+#### Schemas/Modelos
+
+![Schemas de datos](docs/images/swagger-schemas.png)
+
 ## Notas de mantenimiento
 
 - `spring.jpa.hibernate.ddl-auto=update` es practico para desarrollo, pero se recomienda migraciones versionadas para produccion.

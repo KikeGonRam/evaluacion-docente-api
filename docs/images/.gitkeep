@@ -1,0 +1,10 @@
+# Esta carpeta contiene las capturas de pantalla de la documentación OpenAPI/Swagger UI
+
+Imágenes esperadas:
+- swagger-ui-overview.png - Vista general de Swagger UI
+- swagger-docentes.png - Endpoints de API Docentes
+- swagger-estudiantes.png - Endpoints de API Estudiantes
+- swagger-cuestionarios.png - Endpoints de API Cuestionarios
+- swagger-evaluaciones.png - Endpoints de API Evaluaciones
+- swagger-schemas.png - Schemas/Modelos de datos
+
